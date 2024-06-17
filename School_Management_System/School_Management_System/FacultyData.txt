@@ -1,0 +1,6 @@
+1,Jones,CSYE,8,Object Oriented Principles
+2,Amuthan ,INFO,5, Web Development
+3,Tejas Parikh ,CSYE,7,Cloud Deployment
+4,Melisa Degrandis ,DAMG,5, Professional Development
+5,Kal Bugrara,INFO,12, Data Modelling
+6,Vishnu,CS,3, Database Management

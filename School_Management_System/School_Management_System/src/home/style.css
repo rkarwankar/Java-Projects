@@ -1,0 +1,32 @@
+
+
+.table-view .column-header{
+    -fx-background-color: #11488f;
+    -fx-padding: 20px;
+     -fx-text-background-color: #fff;
+}
+
+.new_employee_input{
+	 -fx-border-color : #11488f;
+	 -fx-border-width : 2px;
+	 -fx-border-radius : 5px;
+	 
+	 -fx-background-color: #fff;
+	 -fx-prompt-text-fill: #000;
+}
+
+ .new_employee_combo{
+ 	-fx-border-color : #11488f;
+	 -fx-border-width : 2px;
+	 -fx-border-radius : 5px;
+	 
+	 -fx-background-color: #fff;
+ }
+ .titled-pane {
+    -fx-padding: 0 0 0.5em 0;
+}
+.dashboardTable .column-header{
+    -fx-background-color:  linear-gradient(to right, #36d1dc, #5b86e5);
+    -fx-padding: 20px;
+     -fx-text-background-color: #fff;
+}

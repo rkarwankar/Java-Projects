@@ -1,0 +1,6 @@
+User Experience Design and Testing, Introduces user experience concepts while working on Web design projects. Offers students an opportunity to build the necessary skill, CSYE, 7280, Chawla Vishal
+Concepts of Object-Oriented Design, Introduces object-oriented design and programming via the Java programming language; the use of inheritance, CSYE, 6200, Yu Chen-Hsiang 
+Network Structures and Cloud Computing, Offers a practical foundation in cloud computing and hands-on experience with the tools used in cloud computing., CSYE, 6225, Tejas Parikh
+Advanced Cloud Computing,Detailed discussion of Kubernetes docker microservies and many cloud computing services,CSYE,7125,Tejas Parikh 
+Agile Methodolgy,Discuss principles of software lifecycle and many real time case studies to build a efective plan,INFO,7423,Vishnu
+PSA,Program Structures Algorithms,INFO,6650,Vishnu

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="newStudentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="734.0" prefWidth="608.0" stylesheets="@../home/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.NewStudentController">
+   <children>
+      <ComboBox id="course1" fx:id="course1" layoutX="147.0" layoutY="425.0" minHeight="-Infinity" prefHeight="38.0" prefWidth="306.0" promptText="Choose Course 1" style="-fx-background-color: #fff;" styleClass="new_student_combo" />
+      <TextField id="degree" fx:id="degree" layoutX="147.0" layoutY="246.0" prefHeight="41.0" prefWidth="306.0" promptText="Enter Degree" style="-fx-border-color: #A100FF;" styleClass="new_employee_input" />
+      <TextField id="name" fx:id="name" layoutX="147.0" layoutY="135.0" prefHeight="38.0" prefWidth="306.0" promptText="Enter Student Name" style="-fx-border-color: #A100FF;" styleClass="new_employee_input" stylesheets="@../home/style.css" />
+      <TextField id="term" fx:id="term" layoutX="147.0" layoutY="192.0" prefHeight="38.0" prefWidth="306.0" promptText="Enter term" style="-fx-border-color: #A100FF;" styleClass="new_employee_input" />
+      <TextField id="major" fx:id="major" layoutX="147.0" layoutY="306.0" prefHeight="41.0" prefWidth="306.0" promptText="Enter Major" style="-fx-border-color: #A100FF;" styleClass="new_employee_input" />
+      <Button fx:id="add" layoutX="313.0" layoutY="607.0" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: #A100FF; -fx-border-radius: 5px;" text="Add" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel" layoutX="147.0" layoutY="607.0" mnemonicParsing="false" onAction="#handleButtonClicks" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: none; -fx-border-color: #A100FF; -fx-border-width: 2px; -fx-border-radius: 5px; -fx-text-fill: #11488f;" text="Cancel">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Pane layoutX="44.0" layoutY="10.0" prefHeight="86.0" prefWidth="502.0" style="-fx-border-width: 3px; -fx-border-style: hidden hidden solid hidden; -fx-border-color: #A100FF;">
+         <children>
+            <Label layoutX="22.0" layoutY="25.0" prefHeight="37.0" prefWidth="566.0" text="Add New Student" textFill="#a100ff">
+               <font>
+                  <Font name="Helvetica Neue" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ComboBox id="course2" fx:id="course2" layoutX="147.0" layoutY="488.0" minHeight="-Infinity" prefHeight="38.0" prefWidth="306.0" promptText="Choose Course 2" style="-fx-background-color: #fff;" styleClass="new_student_combo" />
+      <DatePicker id="dob" fx:id="dob" layoutX="147.0" layoutY="367.0" prefHeight="37.0" prefWidth="306.0" promptText="Date of Birth" />
+   </children>
+</AnchorPane>

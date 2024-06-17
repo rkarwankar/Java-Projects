@@ -1,0 +1,9 @@
+1,Jones,Fall2023,MS,INFO, DMDD, OOD
+2,Kaushik,Spring2023,MS,DAMG, WEBD, OOD
+3,Nethra,Fall2023,MS,INFO, AED, OOD
+4,Shobith,Spring2023,MS,CSYE, BDA, PSA
+5,Ruchithra,Spring2023,MS,DA, DMDD, PSA
+7,PG,SPRING2023,MS,CSYE,WEBD,Cloud
+9,Uday,Fall2023,MS,Computer Science,Concepts of Object-Oriented Design,Agile Methodolgy
+10,Dharma,Spring 2023,MS,IS,Concepts of Object-Oriented Design,User Experience Design and Testing
+11,Rushi,Fall 2023,MS,IS,Concepts of Object-Oriented Design,PSA

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="facultyPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="749.0" prefWidth="1453.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FacultyController">
+   <children>
+      <TableView fx:id="facultyTable" layoutX="115.0" layoutY="274.0" prefHeight="342.0" prefWidth="1198.0" stylesheets="@../home/style.css">
+        <columns>
+          <TableColumn fx:id="facultyid" prefWidth="75.0" text="Faculty Id" />
+          <TableColumn fx:id="facultyName" prefWidth="75.0" text="Faculty Name" />
+            <TableColumn fx:id="department" prefWidth="75.0" text="Department" />
+            <TableColumn fx:id="expYears" prefWidth="75.0" text="Years of Experience" />
+            <TableColumn fx:id="areaOfIntrest" prefWidth="75.0" text="Area of Intrest" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TableView>
+      <Pane layoutX="44.0" layoutY="10.0" prefHeight="86.0" prefWidth="1361.0" style="-fx-border-width: 3px; -fx-border-style: hidden hidden solid hidden; -fx-border-color: #A100FF;">
+         <children>
+            <Label layoutX="22.0" layoutY="25.0" prefHeight="37.0" prefWidth="566.0" text="Faculty">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="homeButton" fitHeight="37.0" fitWidth="35.0" layoutX="1262.0" layoutY="41.0" onMousePressed="#redirectHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logout" fitHeight="37.0" fitWidth="35.0" layoutX="1325.0" layoutY="44.0" onMousePressed="#logOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logout.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

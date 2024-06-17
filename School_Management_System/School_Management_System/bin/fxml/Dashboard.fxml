@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashboardPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="739.0" prefWidth="1485.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
+
+    <children>
+        <Pane layoutX="64.0" layoutY="55.0" prefHeight="86.0" prefWidth="1361.0" style="-fx-border-color: #A100FF; -fx-border-style: hidden hidden solid hidden; -fx-border-width: 3px;">
+            <children>
+                <Label layoutX="29.0" layoutY="25.0" prefHeight="37.0" prefWidth="439.0" text="Dashboard">
+                    <font>
+                        <Font name="System Bold" size="29.0" />
+                    </font>
+                </Label>
+                <ImageView fx:id="dashboardHome" fitHeight="37.0" fitWidth="35.0" layoutX="1253.0" layoutY="31.0" onMousePressed="#redirectHome" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/home.png" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="logout" fitHeight="37.0" fitWidth="35.0" layoutX="1315.0" layoutY="31.0" onMousePressed="#logOut" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/logout.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <AnchorPane layoutX="34.0" layoutY="686.0" minHeight="0.0" minWidth="0.0" prefHeight="255.0" prefWidth="569.0" />
+        <BarChart fx:id="studentsVsDepartment" layoutX="228.0" layoutY="309.0" prefHeight="400.0" prefWidth="455.0" title="Student Capacity per Department">
+            <xAxis>
+                <CategoryAxis label="Department" side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="Students" side="LEFT" />
+            </yAxis>
+        </BarChart>
+        <PieChart fx:id="studentsVsCourses" layoutX="759.0" layoutY="310.0" prefHeight="400.0" prefWidth="465.0" title="Students Vs Courses" />
+    </children>
+
+</AnchorPane>
